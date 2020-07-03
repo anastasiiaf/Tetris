@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h3>Your Score: <span id="#score">0 </span> Speed: <span id="#speed">1000ms</span></h3>
+
+    <div class="container-content">
+      <div class="buttons-container">
+        <p id="next">Next tetromino:</p>
+        <div id="#next-grid" class="show-next-grid"></div>
+        <button id="#refreshBtn" class="buttons">Refresh</button>
+        <p>Grid size:</p>
+        <button id="#gridSizeBtn" class="buttons">Select</button>
+        <p>Cell size:</p>
+        <button id="#cellSizeBtn" class="buttons">Select</button>
+        <p>Start game:</p>
+        <button id="#startBtn" class="buttons">Start/Pause</button>
+      </div>
+
+      <div id="#grid" class="grid-setup"></div>
+    </div>
+  </body>
+</html>
